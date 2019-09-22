@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="design_default_color_on_secondary">#FFFFFF</color>
+    <color name="textColorPrimary">#442C2E</color>
+    <color name="toolbarIconColor">@color/textColorPrimary</color>
+    <color name="loginPageBackgroundColor">#FFFFFF</color>
+    <color name="productGridBackgroundColor">#FFFBFA</color>
+    <color name="colorControlActivated">#FBB8AC</color>
+    <color name="primaryColor">#ab47bc</color>
+    <color name="primaryLightColor">#df78ef</color>
+    <color name="primaryDarkColor">#790e8b</color>
+    <color name="secondaryColor">#ffd600</color>
+    <color name="secondaryLightColor">#ffff52</color>
+    <color name="secondaryDarkColor">#c7a500</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#000000</color>
+</resources>
+
+<!--<resources>-->
+<!--<color name="colorPrimary">#E0E0E0</color>-->
+<!--<color name="colorPrimaryDark">#FBB8AC</color>-->
+<!--<color name="colorAccent">#FEDBD0</color>-->
+<!--<color name="textColorPrimary">#442C2E</color>-->
+<!--<color name="toolbarIconColor">@color/textColorPrimary</color>-->
+<!--<color name="loginPageBackgroundColor">#FFFFFF</color>-->
+<!--<color name="productGridBackgroundColor">#FFFBFA</color>-->
+<!--<color name="colorControlActivated">#FBB8AC</color>-->
+<!--</resources>-->

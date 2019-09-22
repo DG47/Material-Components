@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".components.CardActivity">
+
+    <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_centerInParent="true" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="300dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/card_iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="144dp"
+                    android:src="@drawable/house_map"
+                    android:adjustViewBounds="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="1.0"/>
+
+            <TextView
+                    android:id="@+id/card_map_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAP \t\t\t :    House"
+                    app:layout_constraintTop_toBottomOf="@+id/card_iv"
+                    app:layout_constraintStart_toStartOf="@+id/card_iv"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"/>
+
+            <TextView
+                    android:id="@+id/card_type_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TYPE\t\t\t :    Default"
+                    app:layout_constraintTop_toBottomOf="@id/card_map_tv"
+                    app:layout_constraintStart_toStartOf="@id/card_map_tv"
+                    android:layout_marginTop="8dp"/>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/card_expand_btn"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    style="@style/Widget.AppCompat.ImageButton"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_keyboard_arrow_down_black_24dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="16dp"
+                    app:layout_constraintVertical_bias="0.69"
+                    app:layout_constraintTop_toTopOf="@+id/card_map_tv"
+                    app:layout_constraintBottom_toTopOf="@+id/card_type_tv"
+                    tools:ignore="UnusedAttribute"/>
+
+            <TextView
+                    android:id="@+id/card_details_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DETAILS :    This map is one of the 10 \n \t\t\t\t\t\t\t\t\t initial maps."
+                    app:layout_constraintTop_toBottomOf="@+id/card_type_tv"
+                    android:visibility="gone"
+                    app:layout_constraintStart_toStartOf="@+id/card_type_tv" android:layout_marginTop="8dp"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

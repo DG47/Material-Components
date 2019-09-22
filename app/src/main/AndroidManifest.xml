@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.example.android.materialcomponents">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/NewTheme"
+            tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".components.ChipsActivity">
+        </activity>
+        <activity android:name=".components.CardActivity">
+        </activity>
+        <activity android:name=".components.FABActivity">
+        </activity>
+        <activity android:name=".components.ButtonsActivity">
+        </activity>
+        <activity
+                android:name=".components.BottomNavigationActivity"
+                android:label="@string/title_activity_bottom_navigation">
+        </activity>
+        <activity android:name=".components.ComingSoon">
+        </activity>
+        <activity android:name=".components.BackdropActivity">
+        </activity>
+        <activity android:name=".components.TopAppBarActivity">
+        </activity>
+        <activity android:name=".components.BottomAppBarActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN"/> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER"/> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
